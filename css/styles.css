@@ -902,10 +902,13 @@ img {
   justify-content: center;
 }
 .mob-soc-link {
-  /* display: flex; */
+  display: flex;
 }
 .mob-soc-icon {
+  
   fill: var(--team-backgroud);
+  align-items: center;
+  justify-content: center;
 }
 
 /* -----------------portfolio page----------------- */

@@ -26,7 +26,42 @@
         ),
         url(../images/main-page/Dark-bg-tab-2x.jpg);
     }
+
+    .logo-list {
+      display: flex;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .contact-list:first-child {
+        margin-bottom: 4px;
+    }
+
+    .adress-wrap {
+      display: flex;
+      padding-top: 24px;
+      margin-left: auto;
+    }
+
+    .contact-link {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 1.33;
+      letter-spacing: 0.04em;
+      color: #434455;
+      text-decoration: none;
+    }
+
+    .mob-menu {
+      display: none;
+    }
   }
+
+  /* ----------------hero---------------- */
 
   .hero-title {
     font-weight: 700;
@@ -122,5 +157,11 @@
 
   .subscribe-btn {
     margin-left: 24px;
+  }
+
+  /* -----------------modal----------------- */
+
+  .modal {
+    width: 408px;
   }
 }

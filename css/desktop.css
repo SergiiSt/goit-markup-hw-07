@@ -3,6 +3,37 @@
     width: 1158px;
   }
 
+  /* ----------------header----------------*/
+
+.contact {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-list:first-child {
+    margin-bottom: 0;
+}
+
+  .contact-link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+  
+    display: block;
+    padding: 24px 0;
+  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .adress-wrap {
+    padding-top: 0;
+  }
+
   /*----------------hero----------------*/
 
   .hero {

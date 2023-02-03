@@ -25,7 +25,7 @@
   </head>
   <body>
     <!----------------header---------------->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container">
         <nav class="header-nav">
           <a class="logo" href="./index.html"
@@ -43,20 +43,25 @@
         </nav>
         <address class="adress-wrap">
           <ul class="contact list">
-            <li>
+            <li class="contact-list">
               <a class="contact-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="contact-list">
               <a class="contact-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <button type="button" class="mob-menu" data-menu-open>
+          <svg class="menu-icon" width="29.54" height="18.62">
+            <use href="./images/symbol-defs.svg#icon-mobile-menu-open"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+    </header>
     <!----------------main---------------->
     <main>
       <!-----------------hero---------------->
@@ -483,16 +488,14 @@
       </div>
     </footer>
     <!---------------modal---------------->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="modal-icon" width="8" height="8">
             <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="modal-title">
-          Leave your contacts and we will call you back
-        </p>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <label class="modal-label">
             <span class="modal-input-title">Name</span>
@@ -551,6 +554,73 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+    <!------------------mobile-menu------------------>
+    <div class="mobile-backdrop is-hidden" data-menu>
+      <button type="button" class="mob-menu-close" data-menu-close>
+        <svg class="modal-icon" width="8" height="8">
+          <use href="./images/symbol-defs.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="mobile-menu">
+        <ul class="mobile-list list">
+          <li class="mobile-item">
+            <a class="mobile-link" href="./index.html"
+              ><span class="active-wrap">Studio</span></a
+            >
+          </li>
+          <li class="mobile-item"><a class="mobile-link" href="./portfolio.html">Portfolio</a></li>
+          <li class="mobile-item"><a class="mobile-link" href="">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="mobile-contact-wrap">
+        <ul class="mobile-contact list">
+          <li class="mobile-contact-item">
+            <a class="mobile-contact-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-contact-item">
+            <a class="mail-contact-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="mob-soc">
+        <ul class="mob-soc-list list">
+          <li class="mob-soc-item">
+            <a class="mob-soc-link" href="">
+              <svg class="mob-soc-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-soc-item">
+            <a class="mob-soc-link" href="">
+              <svg class="mob-soc-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-soc-item">
+            <a class="mob-soc-link" href="">
+              <svg class="mob-soc-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-soc-item">
+            <a class="mob-soc-link" href="">
+              <svg class="mob-soc-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/mob-menu.js"></script>
   </body>
 </html>

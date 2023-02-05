@@ -19,4 +19,14 @@
   .modal {
     width: 392px;
   }
+
+/* -----------------mobile menu----------------- */
+
+.mobile-menu {
+  margin-bottom: 100px;
+}
+
+.mobile-contact-link {
+  font-size: 36px;
+}
 }

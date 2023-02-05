@@ -37,8 +37,8 @@
   /*----------------hero----------------*/
 
   .hero {
-    padding-top: 112px;
-    padding-bottom: 108px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -116,7 +116,7 @@
 
   .ul-doing {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
   }
 
   /* -----------------team----------------- */
@@ -204,6 +204,10 @@
 
   .footer-mail:focus {
     border-color: var(--hover-focus);
+  }
+
+  .subscribe-btn {
+    margin-left: 0;
   }
 
   .subscribe-btn:hover,

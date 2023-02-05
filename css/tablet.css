@@ -19,7 +19,7 @@
 
   .adress-wrap {
     display: flex;
-    padding-top: 24px;
+    align-items: center;
     margin-left: auto;
   }
 
@@ -107,11 +107,15 @@
   /* --------------customers-------------- */
 
   .customers > .container {
-    width: 526px;
+    width: 582px;
   }
 
   .customers-list {
     gap: 72px 24px;
+  }
+
+  .customers-link {
+    width: 168px;
   }
 
   .list-item {

@@ -19,6 +19,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
 h1,
 h2,
 h3,
@@ -28,6 +29,7 @@ h6,
 p {
   margin: 0;
 }
+
 ul {
   margin: 0;
   padding-left: 0;
@@ -469,6 +471,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text);
+  margin-left: auto;
+  margin-right: auto;
 
   width: 268px;
 }
@@ -530,7 +534,7 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--hero-title-color);
-  margin-bottom: 72px;
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -558,8 +562,9 @@ img {
   color: rgba(255, 255, 255, 0.6);
   padding-left: 16px;
   outline: none;
-  position: absolute;
-  top: -60px;
+  margin-bottom: 16px;
+  /* position: absolute;
+  top: -60px; */
 }
 
 .subscribe-btn {
@@ -813,6 +818,13 @@ img {
 
 .mobile-backdrop.is-hidden {
   transform: translate(0%, 0%) scale(0);
+}
+
+.mobile-menu-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .mob-menu-close {

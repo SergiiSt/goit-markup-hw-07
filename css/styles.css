@@ -613,7 +613,7 @@ img {
   left: 50%;
   /* width: 392px; */
   /* width: 408px; */
-  width: 280px;
+  width: 90%;
   background-color: var(--modal-color);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
@@ -631,6 +631,7 @@ img {
   right: 24px;
   width: 24px;
   height: 24px;
+  padding: 0;
   border-radius: 50%;
   background-color: var(--footer-text);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -833,6 +834,7 @@ img {
   right: 40px;
   width: 24px;
   height: 24px;
+  padding: 0;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
